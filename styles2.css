@@ -1,0 +1,57 @@
+ body {
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ .img{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .card {
+     border-radius: 3px 3px 3px 3px;
+ }
+ article div {
+   border: 1px solid rgb(182, 182, 182);
+   max-width: 300px ;
+    margin-left: 0px;
+    border-collapse: collapse;
+ }
+.first-box p , .first-box h1 ,
+.second-box h2 , .third-box h2 ,
+.fourth-box h2 , .links a {
+    letter-spacing: 0.4px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.second-box h2 , .third-box h2 ,
+.fourth-box h2 , .links a {
+    font-weight: 400;
+}
+
+
+.links{
+    padding-bottom: 20px;
+}
+.link1 , .link2 {
+    color: rgb(4, 107, 204);
+    display: inline-block;
+ 
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 315px) {
+    .imgT , .card
+    {
+       width: 80%;
+    }
+  }
+  
